@@ -1,0 +1,29 @@
+{
+  "name": "freecodecamp-tribute-page",
+  "version": "1.0.0",
+  "description": "web development project of free code camp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lealopez95/freecodecamp-tribute-page.git"
+  },
+  "keywords": [
+    "freecodecamp",
+    "tribute page"
+  ],
+  "author": "leandro lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lealopez95/freecodecamp-tribute-page/issues"
+  },
+  "homepage": "https://github.com/lealopez95/freecodecamp-tribute-page#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
